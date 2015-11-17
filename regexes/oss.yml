@@ -57,7 +57,7 @@
 - regex: 'Windows NT 6.3; ARM;'
   name: 'Windows RT'
   version: '8.1'
-  
+
 
 ##########
 # Custom Android Roms
@@ -122,6 +122,10 @@
 ##########
 # Linux
 ##########
+- regex: 'Maemo'
+  name: 'Maemo'
+  version: '$1'
+
 - regex: 'Arch ?Linux(?:[ /\-](\d+[\.\d]+))?'
   name: 'Arch Linux'
   version: '$1'
@@ -479,7 +483,7 @@
   version: '$1'
   
   
-- regex: 'IRIX(?:[/ ]?(\d+[\.\d]+))'
+- regex: 'IRIX(?:;64)?(?:[/ ]?(\d+[\.\d]+))'
   name: 'IRIX'
   version: '$1'
   

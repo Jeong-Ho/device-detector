@@ -105,6 +105,13 @@
     version: "5.3"
     platform:
 -
+  user_agent: 'Mozilla/4.77 [en] (X11; I; IRIX;64 6.5 IP30)'
+  os:
+    name: IRIX
+    short_name: IRI
+    version: "6.5"
+    platform:
+-
   user_agent: Mozilla/5.0 (compatible; Konqueror/3.5; Linux) KHTML/3.5.5 (like Gecko) (Kubuntu)
   os:
     name: Kubuntu
@@ -174,6 +181,14 @@
     short_name: MCD
     version: "2.3.5"
     platform:
+-
+  user_agent: Mozilla/5.0 (X11; U; Linux armv7l; pt-PT; rv:1.9.2.3pre) Gecko/20100723 Firefox/3.5 Maemo Browser 1.7.4.8 RX-51 N900
+  os:
+    name: Maemo
+    short_name: MAE
+    version:
+    platform: ARM
+  client:
 -
   user_agent: Mozilla/5.0 (X11; U; Linux i686; es-ES; rv:2.0) Gecko/20100101 Linux Mint 16/Petra Firefox/25.0.1.
   os:
